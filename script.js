@@ -21,8 +21,17 @@ var fullName= [
 
 ];
 
-console.log(fullName[2]);
-fullName.push("divya");
+// console.log(fullName[2]);
+// fullName.push("divya");
+
 // fullName.pop();
-fullName.pop(0);
-console.log(fullName);
+// fullName.pop(0);
+// console.log(fullName);
+
+    fullName.map((name)=>{
+    console.log(name);
+
+
+
+    }
+    )
