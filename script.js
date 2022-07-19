@@ -23,4 +23,6 @@ var fullName= [
 
 console.log(fullName[2]);
 fullName.push("divya");
+// fullName.pop();
+fullName.pop(0);
 console.log(fullName);
