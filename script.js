@@ -34,14 +34,34 @@ var fullName = ["John", "Akhil", "Deo"];
 // }
 // )
 
-//Objects
-var objects = {
-  age: 23,
-  string: "akhil",
-  name: "lemonade",
-  happy: true,
-  friends: ["akhil", "divya", "deo"],
+// //Objects
+// var objects = {
+//   age: 23,
+//   string: "akhil",
+//   name: "lemonade",
+//   happy: true,
+//   friends: ["akhil", "divya", "deo"],
   
-};
-console.log(objects);
-console.log(objects.friends);
+// };
+// console.log(objects);
+// console.log(objects.friends);
+
+
+
+//combination of array and obj
+var student=[{
+  name: "akhil",
+
+},
+
+{
+  age: 26,
+},
+
+{
+  std:" 12th"
+},
+
+
+];
+console.log(student);
