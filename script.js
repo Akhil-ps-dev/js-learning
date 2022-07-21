@@ -98,12 +98,24 @@ var fullName = ["John", "Akhil", "Deo"];
 
 //String manipulation
 
- var age = "twelve";
+//  var age = "twelve";
 
- console.log(age.toUpperCase());
- console.log(age.slice(0,4));
+//  console.log(age.toUpperCase());
+//  console.log(age.slice(0,4));
 
- var code = "js is amazing";
- var hie = code.replace("js","flutter");
- console.log(code);
-console.log(hie);
+//  var code = "js is amazing";
+//  var hie = code.replace("js","flutter");
+//  console.log(code);
+// console.log(hie);
+
+// concatunation
+
+// var number = "10";
+//  number = parseInt(number)
+
+// console.log(number + 1);
+
+
+// var string = "123w";
+
+parseInt
