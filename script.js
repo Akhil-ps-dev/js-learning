@@ -141,9 +141,17 @@
 //   console.log(names[i]);
 // }
 
-let i=0;
+// let i=0;
 
-while (i<5){
-  console.log(i);
-  i++;
+// while (i<5){
+//   console.log(i);
+//   i++;
+// }
+
+//! Functions
+//fun delcare
+function akhil( ){
+console.log("this is  function");
 }
+
+akhil(); //call function
