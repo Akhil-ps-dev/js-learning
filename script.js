@@ -131,12 +131,19 @@
 
 //! Loops
 
-for( let i=0; i<5; i++){
+// for( let i=0; i<5; i++){
+//   console.log(i);
+// }
+
+// let names = ["akhil", "divya","deo"];
+
+// for( let i=0; i<4; i++){
+//   console.log(names[i]);
+// }
+
+let i=0;
+
+while (i<5){
   console.log(i);
-}
-
-let names = ["akhil", "divya","deo"];
-
-for( let i=0; i<4; i++){
-  console.log(names[i]);
+  i++;
 }
