@@ -88,10 +88,22 @@ var fullName = ["John", "Akhil", "Deo"];
 //   console.log(data);
 
 // });
-var data = {
-  name : "akhil"
-}
+// var data = {
+//   name : "akhil"
+// }
 
- data.age = 12;
-data.name = "divya";
- console.log(data);
+//  data.age = 12;
+// data.name = "divya";
+//  console.log(data);
+
+//String manipulation
+
+ var age = "twelve";
+
+ console.log(age.toUpperCase());
+ console.log(age.slice(0,4));
+
+ var code = "js is amazing";
+ var hie = code.replace("js","flutter");
+ console.log(code);
+console.log(hie);
