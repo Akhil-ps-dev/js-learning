@@ -41,27 +41,50 @@ var fullName = ["John", "Akhil", "Deo"];
 //   name: "lemonade",
 //   happy: true,
 //   friends: ["akhil", "divya", "deo"],
-  
+
 // };
 // console.log(objects);
 // console.log(objects.friends);
 
-
-
 //combination of array and obj
-var student=[{
+// var student = [
+//   {
+//     name: "akhil",
+//   },
+
+//   {
+//     age: 26,
+//   },
+
+//   {
+//     std: " 12th",
+//   },
+// ];
+// console.log(student);
+
+//object
+var userData = {
   name: "akhil",
+  age: 50,
+  branch: "computer science",
+  friends: ["divya", "deo", "koli"],
+  marrird: true,
+};
 
-},
+console.log(userData);
 
-{
-  age: 26,
-},
+var stdData = [
+  {
+    name: "akhil",
+  },
 
-{
-  std:" 12th"
-},
-
-
+  {
+    name: "akhii",
+  },
 ];
-console.log(student);
+
+stdData.map((data) => {
+  // console.log(data.name);
+  console.log(data);
+
+});
