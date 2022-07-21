@@ -12,7 +12,7 @@
 // console.log("Age:" ,age);
 // console.log("name:" ,boolean);
 
-var fullName = ["John", "Akhil", "Deo"];
+// var fullName = ["John", "Akhil", "Deo"];
 
 // var something= [
 // "akhil",
@@ -118,4 +118,12 @@ var fullName = ["John", "Akhil", "Deo"];
 
 // var string = "123w";
 
-parseInt
+// operators
+
+var a =10;
+
+var b =10;
+
+var sum = a+b;
+
+console.log(sum);
