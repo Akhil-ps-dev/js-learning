@@ -63,28 +63,35 @@ var fullName = ["John", "Akhil", "Deo"];
 // console.log(student);
 
 //object
-var userData = {
-  name: "akhil",
-  age: 50,
-  branch: "computer science",
-  friends: ["divya", "deo", "koli"],
-  marrird: true,
-};
+// var userData = {
+//   name: "akhil",
+//   age: 50,
+//   branch: "computer science",
+//   friends: ["divya", "deo", "koli"],
+//   marrird: true,
+// };
 
-console.log(userData);
+// console.log(userData);
 
-var stdData = [
-  {
-    name: "akhil",
-  },
+// var stdData = [
+//   {
+//     name: "akhil",
+//   },
 
-  {
-    name: "akhii",
-  },
-];
+//   {
+//     name: "akhii",
+//   },
+// ];
 
-stdData.map((data) => {
-  // console.log(data.name);
-  console.log(data);
+// stdData.map((data) => {
+//   // console.log(data.name);
+//   console.log(data);
 
-});
+// });
+var data = {
+  name : "akhil"
+}
+
+ data.age = 12;
+data.name = "divya";
+ console.log(data);
