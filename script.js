@@ -152,6 +152,7 @@
 // //fun delcare
 // function akhil( ){
 // console.log("this is  function");
+
 // }
 
 // akhil(); //call function
@@ -161,3 +162,12 @@
 
   // }
   // print("Hey")
+//!!!!!2nd parameter
+
+  function fun(a,b ){
+console.log(a,b);
+
+
+  }
+
+  fun("hey", "hello")
