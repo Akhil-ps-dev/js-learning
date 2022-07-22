@@ -164,10 +164,16 @@
   // print("Hey")
 //!!!!!2nd parameter
 
-  function fun(a,b ){
-console.log(a,b);
+//   function fun(a,b ){
+// console.log(a,b);
 
 
-  }
+//   }
 
-  fun("hey", "hello")
+//   fun("hey", "hello");
+
+
+//!prompt
+
+let promtItem = prompt("Enter your Name");
+
