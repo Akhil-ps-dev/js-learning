@@ -120,10 +120,44 @@
 
 // operators
 
-var a =10;
+// var a =10;
 
-var b =10;
+// var b =10;
 
-var sum = a+b;
+// var sum = a+b;
 
-console.log(sum);
+// console.log(sum);
+
+
+//! Loops
+
+// for( let i=0; i<5; i++){
+//   console.log(i);
+// }
+
+// let names = ["akhil", "divya","deo"];
+
+// for( let i=0; i<4; i++){
+//   console.log(names[i]);
+// }
+
+// let i=0;
+
+// while (i<5){
+//   console.log(i);
+//   i++;
+// }
+
+// //! Functions
+// //fun delcare
+// function akhil( ){
+// console.log("this is  function");
+// }
+
+// akhil(); //call function
+
+  // function print(a){
+  // console.log(a);
+
+  // }
+  // print("Hey")
