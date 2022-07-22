@@ -148,10 +148,16 @@
 //   i++;
 // }
 
-//! Functions
-//fun delcare
-function akhil( ){
-console.log("this is  function");
-}
+// //! Functions
+// //fun delcare
+// function akhil( ){
+// console.log("this is  function");
+// }
 
-akhil(); //call function
+// akhil(); //call function
+
+  // function print(a){
+  // console.log(a);
+
+  // }
+  // print("Hey")
