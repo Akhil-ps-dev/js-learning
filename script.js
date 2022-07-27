@@ -204,9 +204,27 @@
 
 //! array operations
 
-let array = [1,2,3,4,5,6,7,];
+// let array = [1,2,3,4,5,6,7,];
 
-array.push(8);
-console.log(array);
-array.unshift(1);
-console.log(array);
+// array.push(8);
+// console.log(array);
+// array.unshift(1);
+// console.log(array);
+
+// array.pop();
+// array.shift();
+// console.log(array);
+
+
+// //!how to update elementsin ana array
+
+// array.splice(2,1,"heey");
+// console.log(array);
+
+ let array = [1,2,3,4,5,6,7,];
+array.forEach((storage, index)=>{
+console.log(storage);  
+array.splice(index,1 , storage+1);
+
+});
+console.log(array);  
