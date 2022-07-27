@@ -202,3 +202,11 @@
 //  let hh = hello(20);
 // console.log(hh);
 
+//! array operations
+
+let array = [1,2,3,4,5,6,7,];
+
+array.push(8);
+console.log(array);
+array.unshift(1);
+console.log(array);
