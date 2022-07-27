@@ -175,5 +175,18 @@
 
 //!prompt
 
-let promtItem = prompt("Enter your Name");
+// let promtItem = prompt("Enter your Name");
 
+// function meg(a,b){
+//   console.log(a,b);
+// }
+//  meg("hello","world");
+
+function addOne(a){
+  return a+1;
+}
+
+// addOne(3);
+let result = addOne(10);
+
+console.log(result);
