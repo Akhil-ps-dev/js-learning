@@ -182,11 +182,23 @@
 // }
 //  meg("hello","world");
 
-function addOne(a){
-  return a+1;
-}
+// function addOne(a){
+//   return a+1;
+
+// }
 
 // addOne(3);
-let result = addOne(10);
+// let result = addOne(10);
 
-console.log(result);
+// console.log(result);
+
+
+// function hello(a){
+
+//   return a  * 10;
+// }
+
+
+//  let hh = hello(20);
+// console.log(hh);
+
