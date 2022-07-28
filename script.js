@@ -221,10 +221,17 @@
 // array.splice(2,1,"heey");
 // console.log(array);
 
- let array = [1,2,3,4,5,6,7,];
-array.forEach((storage, index)=>{
-console.log(storage);  
-array.splice(index,1 , storage+1);
+//  let array = [1,2,3,4,5,6,7,];
+// array.forEach((storage, index)=>{
+// console.log(storage);  
+// array.splice(index,1 , storage+1);
 
-});
-console.log(array);  
+// });
+// console.log(array);  
+
+
+
+console.log(window.innerWidth);
+// window.alert("hell0");
+var prompted =  window.prompt("Enter your Name");
+console.log(prompted);
