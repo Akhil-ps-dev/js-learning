@@ -230,8 +230,35 @@
 // console.log(array);  
 
 
-
-console.log(window.innerWidth);
+//!prompt global var
+// console.log(window.innerWidth);
 // window.alert("hell0");
-var prompted =  window.prompt("Enter your Name");
-console.log(prompted);
+// var prompted =  window.prompt("Enter your Name");
+// console.log(prompted);
+
+//!this
+// console.log(this);
+
+// const car={
+//   name: 'Bmw',
+//   model: 'X5',
+//   moving: function(){
+//     console.log("moving");
+//     console.log(this);
+//   }
+// }
+
+// car.moving();
+
+//!constructor
+
+class Car{
+  constructor(name,model){
+    console.log(this);
+    this.name = name;
+
+  }
+  
+}
+const car1 = new Car("tata","iton");
+console.log(car1);
