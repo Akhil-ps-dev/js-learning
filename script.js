@@ -175,5 +175,90 @@
 
 //!prompt
 
-let promtItem = prompt("Enter your Name");
+// let promtItem = prompt("Enter your Name");
 
+// function meg(a,b){
+//   console.log(a,b);
+// }
+//  meg("hello","world");
+
+// function addOne(a){
+//   return a+1;
+
+// }
+
+// addOne(3);
+// let result = addOne(10);
+
+// console.log(result);
+
+
+// function hello(a){
+
+//   return a  * 10;
+// }
+
+
+//  let hh = hello(20);
+// console.log(hh);
+
+//! array operations
+
+// let array = [1,2,3,4,5,6,7,];
+
+// array.push(8);
+// console.log(array);
+// array.unshift(1);
+// console.log(array);
+
+// array.pop();
+// array.shift();
+// console.log(array);
+
+
+// //!how to update elementsin ana array
+
+// array.splice(2,1,"heey");
+// console.log(array);
+
+//  let array = [1,2,3,4,5,6,7,];
+// array.forEach((storage, index)=>{
+// console.log(storage);  
+// array.splice(index,1 , storage+1);
+
+// });
+// console.log(array);  
+
+
+//!prompt global var
+// console.log(window.innerWidth);
+// window.alert("hell0");
+// var prompted =  window.prompt("Enter your Name");
+// console.log(prompted);
+
+//!this
+// console.log(this);
+
+// const car={
+//   name: 'Bmw',
+//   model: 'X5',
+//   moving: function(){
+//     console.log("moving");
+//     console.log(this);
+//   }
+// }
+
+// car.moving();
+
+//!constructor
+
+class Car{
+  constructor(name,model){
+    console.log(this);
+    this.name = name;
+
+  }
+  
+}
+const car1 = new Car("tata","iton");
+console.log(car1);
